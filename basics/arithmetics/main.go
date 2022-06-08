@@ -18,7 +18,7 @@ func main() {
 	// bitwise
 	fmt.Println("E =>", a&b)
 	fmt.Println("OR =>", a|b)
-	fmt.Println("OR =>", a^b)
+	fmt.Println("XOR =>", a^b)
 
 	c := 3.0
 	d := 2.0
