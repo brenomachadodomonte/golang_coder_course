@@ -1,9 +1,14 @@
 # GoLang
 
 ### Commands
-Execute a go program:
+Execute a go file:
 ```sh
 go run main.go
+```
+
+Execute a go program:
+```sh
+go run *.go
 ```
 
 Documentation:

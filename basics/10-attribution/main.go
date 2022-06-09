@@ -9,7 +9,6 @@ func main() {
 	var b byte = 3
 	fmt.Println(b)
 
-
 	i := 3 //deduced type
 
 	i += 3 // i = i + 3
