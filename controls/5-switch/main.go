@@ -22,8 +22,23 @@ func getGradeResult(grade float64) string {
 	}
 }
 
+func getGradeResult2(grade float64) string {
+	switch {
+	case grade >= 9: 
+		return "A"
+	case grade >= 8:
+		return "B"
+	case grade >= 5:
+		return "C"
+	case grade >= 3:
+		return "D"
+	default:
+		return "E"		
+	}
+}
+
 func main(){
 	fmt.Println(getGradeResult(9.8));
-	fmt.Println(getGradeResult(7.1));
-	fmt.Println(getGradeResult(3.5));
+	fmt.Println(getGradeResult2(7.1));
+	fmt.Println(getGradeResult2(3.5));
 }
