@@ -13,9 +13,8 @@ func buy(job1, job2 bool) (bool, bool, bool) {
 }
 
 func main() {
-	
+
 	tv50, tv32, iceCream := buy(true, true)
-	fmt.Printf("TV50: %t, TV32: %t, IceCream: %t, healthy: %t", tv50, tv32, , !iceCream)
+	fmt.Printf("TV50: %t, TV32: %t, IceCream: %t, healthy: %t", tv50, tv32, iceCream, !iceCream)
 
 }
-
