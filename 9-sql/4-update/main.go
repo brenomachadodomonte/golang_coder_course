@@ -13,7 +13,7 @@ func main() {
 	}
 	defer db.Close()
 
-	stmt, _ := db.Prepare("update users set name = ? where id = 2")
+	stmt, _ := db.Prepare("update users set name = ? where id = ?")
 
 	stmt.Exec("Breno Machado", 1)
 	stmt.Exec("Vanessa Oliveira", 3)
