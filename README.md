@@ -28,7 +28,7 @@ go build main.go
 
 Install a package:
 ```sh
-go install -u github.com/go-sql-driver/mysql
+go get -u github.com/go-sql-driver/mysql
 ```
 
 Tests Coverage:
